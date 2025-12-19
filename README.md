@@ -1,76 +1,43 @@
-/*
- * CS320 – Software Test, Automation, and Quality Assurance
- * Author: Konigbagbe G. Fisayo
- *
- * This repository contains portfolio artifacts from CS-320
- * demonstrating unit testing, automation, and software quality
- * assurance techniques using Java and JUnit.
- */
+# CS320 – Software Test Portfolio
 
-========================
-= Portfolio Overview  =
-========================
+**Author:** Konigbagbe G. Fisayo
 
-/*
- * Project One – Contact Service
- *
- * Files Included:
- *  - Contact.java
- *  - ContactService.java
- *  - ContactTest.java
- *  - ContactServiceTest.java
- *
- * This project demonstrates:
- *  - Translating software requirements into code
- *  - Enforcing data validation and constraints
- *  - Writing automated unit tests using JUnit
- *  - Using testing to detect defects early
- */
+## Overview
+This repository contains portfolio artifacts from CS-320: Software Test, Automation, and Quality Assurance.  
+It demonstrates unit testing, automation, and software quality assurance techniques using **Java** and **JUnit**.
 
-/*
- * Project Two – Summary and Reflections Report
- *
- * This document reflects on:
- *  - Unit testing strategies used in the course
- *  - Challenges encountered while writing tests
- *  - Lessons learned about automation and quality assurance
- */
+---
 
-================
-= Reflection  =
-================
+## Project One – Contact Service
 
-/*
- * Q1: How can I ensure that my code, program, or software is functional and secure?
- *
- * I ensure functionality by writing unit tests that verify each method
- * behaves as expected under normal and edge-case conditions. Automated
- * testing helps catch defects early and ensures that changes do not break
- * existing functionality. While this course focuses on testing rather than
- * security, validating inputs and enforcing constraints also helps prevent
- * unexpected behavior.
- */
+### Files Included
+- Contact.java  
+- ContactService.java  
+- ContactTest.java  
+- ContactServiceTest.java  
 
-/*
- * Q2: How do I interpret user needs and incorporate them into a program?
- *
- * I interpret user needs by carefully reviewing requirements and converting
- * them into specific rules within the code. For example, in the Contact
- * Service, user requirements such as field length limits and required values
- * were enforced through validation logic. Unit tests were then written to
- * confirm that these rules were consistently applied.
- */
+### Description
+This project demonstrates the implementation of a contact management service with enforced constraints and automated unit testing. JUnit tests were used to validate correct behavior, handle invalid inputs, and ensure reliability.
 
-/*
- * Q3: How do I approach designing software?
- *
- * I approach software design by separating responsibilities into clear,
- * maintainable components. Data models, service logic, and test classes
- * are kept independent. Writing tests alongside the code allows me to
- * validate design decisions early and adjust the implementation before
- * defects become more complex or costly.
- */
+---
 
-========================
-= End of README File  =
-========================
+## Project Two – Summary and Reflections
+
+### Files Included
+- Summary and Reflections Report
+
+### Description
+This document reflects on my testing approach, challenges, and lessons learned while developing and testing software using automated testing strategies.
+
+---
+
+## Reflection
+
+### How can I ensure that my code, program, or software is functional and secure?
+I ensure my software is functional and secure by implementing automated unit tests, validating inputs, and enforcing constraints within the code. In Project One, JUnit tests verified correct behavior, edge cases, and exception handling. These practices help prevent invalid states and ensure continued reliability after code changes.
+
+### How do I interpret user needs and incorporate them into a program?
+I interpret user needs by analyzing requirements and translating them into functional behaviors and constraints within the software. I then validate those behaviors using unit tests that simulate both valid and invalid user input, ensuring the application behaves as expected.
+
+### How do I approach designing software?
+I approach software design by breaking requirements into modular components, separating responsibilities between data models, services, and tests. Writing tests alongside implementation allows me to verify design decisions early and improve maintainability and code quality.
